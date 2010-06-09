@@ -21,10 +21,23 @@
 			<string>support.type.django.model</string>
 		</dict>
 		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.control.import.python</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>support.other.django.module</string>
+				</dict>
+			</dict>
 			<key>match</key>
-			<string>django(\.[a-z]+){1,} </string>
+			<string>(from|import)\s+(django(\.[_A-Za-z][_A-Za-z0-9]*)*)</string>
 			<key>name</key>
-			<string>support.other.django.module</string>
+			<string>meta.import.python.django</string>
 		</dict>
 		<dict>
 			<key>match</key>
