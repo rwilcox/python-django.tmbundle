@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:record} = get_object_or_404(${2:Class}, pk=${3:$1}_id)
+</string>
+	<key>name</key>
+	<string>get_object_or_404</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>get</string>
+	<key>uuid</key>
+	<string>5EEE71EC-2C55-45DA-A492-B0F28BBE2F40</string>
+</dict>
+</plist>
